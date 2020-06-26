@@ -23,8 +23,8 @@ function accessElementInArray(array, element) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  const newArr = array.slice(1)
-  return newArr
+  array.shift()
+  return array
 }
 
 function removeElementFromBeginningOfArray(array) {

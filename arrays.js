@@ -28,8 +28,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  array.unshift()
-  return array
+  const newArr = array.slice(1)
+  return newArr
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {

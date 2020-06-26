@@ -1,4 +1,4 @@
-const chocolateBars = [
+let chocolateBars = [
   'snickers',
   'hundred grand',
   'kitkat',

@@ -29,3 +29,8 @@ function destructivelyRemoveElementFromBeginningOfArray(a) {
   a.unshift()
   return [...a]
 }
+
+function removeElementFromBeginningOfArray(a) {
+  a.unshift()
+  return a
+}

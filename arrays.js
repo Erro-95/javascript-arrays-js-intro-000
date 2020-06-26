@@ -26,11 +26,18 @@ function accessElementInArray(a, b) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(a) {
-  a.unshift()
-  return [...a]
+  const newArr = a.slice(1)
+  return newArr
 }
 
 function removeElementFromBeginningOfArray(a) {
   a.unshift()
   return a
 }
+
+function destructivelyRemoveElementFromEndOfArray(a) {
+  const newArr = a.slice(0, a.length-1)
+  return newArr
+}
+
+function
